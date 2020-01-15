@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "flights",
+  "info": {
+    "name": "flight"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Origen": {
+      "type": "string"
+    },
+    "Destino": {
+      "type": "string"
+    },
+    "Precio": {
+      "type": "string"
+    },
+    "Moneda": {
+      "type": "string"
+    },
+    "Ruta_tipo": {
+      "type": "string"
+    }
+  }
+}
